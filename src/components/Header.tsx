@@ -20,6 +20,7 @@ const Header = () => {
       <img src={logo} alt="Logo" className="logo" />
 
       <button
+        type="button"
         className="hamburger"
         aria-label="Toggle menu"
         aria-expanded={isOpen}
