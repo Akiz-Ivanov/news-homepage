@@ -49,8 +49,8 @@ Users should be able to:
 - Responsive layout with CSS Grid & Flexbox
 - Mobile-first workflow
 - Vite
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)]
+- React
+- TypeScript
 
 ### What I learned
 
