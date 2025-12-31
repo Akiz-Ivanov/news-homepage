@@ -32,7 +32,6 @@ Users should be able to:
 
 ![Mobile screenshot](./screenshots/mobile-screenshot.png)
 
-
 ### Links
 
 - Solution URL: [https://github.com/Akiz-Ivanov/news-homepage](https://github.com/Akiz-Ivanov/news-homepage)
