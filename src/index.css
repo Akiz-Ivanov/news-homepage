@@ -89,8 +89,8 @@ a {
 body {
   font-family: var(--ff-base);
   line-height: 1.5;
-  color: var(--neutral-very-dark-blue);
-  background-color: var(--neutral-off-white);
+  color: var(--clr-neutral-very-dark-blue);
+  background-color: var(--clr-neutral-off-white);
 }
 
 p {
@@ -244,6 +244,10 @@ article h3 a::after {
   font-weight: 800;
 }
 
+.numbered-articles-grid p {
+  color: var(--clr-neutral-dark-grayish-blue);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -323,25 +327,25 @@ header {
   }
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 28.125rem) {
   .numbered-articles-grid article {
     grid-template-columns: 1fr 3fr;
   }
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 32.5rem) {
   .wrapper {
     padding-inline: clamp(1.5rem, -3.7419rem + 16.129vw, 4rem);
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 37.5rem) {
   .numbered-articles-grid article {
     grid-template-columns: 1fr 4fr;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   .wrapper {
     padding-inline: clamp(6.75rem, 1.5rem + 10.9375vw, 8.5rem);
   }
@@ -351,7 +355,7 @@ header {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
 
   .numbered-articles-grid img {
     object-fit: cover;
@@ -362,7 +366,7 @@ header {
     padding-inline: .75rem;
   }
 
-  .header {
+  header {
     margin-bottom: 2rem;
   }
 

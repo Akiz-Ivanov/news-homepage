@@ -5,7 +5,7 @@ const FeaturedArticle = () => {
   return (
     <article className="featured-article">
       <picture>
-        <source media="(min-width: 768px)" srcSet={web3Desktop} />
+        <source media="(min-width: 48rem)" srcSet={web3Desktop} />
         <img src={web3Mobile} alt="Colorful 3D geometric shapes" />
       </picture>
 
