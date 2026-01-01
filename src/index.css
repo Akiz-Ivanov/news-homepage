@@ -366,10 +366,6 @@ header {
     padding-inline: .75rem;
   }
 
-  header {
-    margin-bottom: 2rem;
-  }
-
   .top-section-grid {
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 4rem;
